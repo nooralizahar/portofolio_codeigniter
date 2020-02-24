@@ -3,7 +3,7 @@
 
 <!-- Head -->
 <head>
-	<title>My Portofolio</title>
+	<title>My Portofolio - Codeigniter</title>
 
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -43,11 +43,11 @@
 	<nav class="navbar navbar-expand-md navbar-light fixed-top shadow-sm bg-white py-3">
 		<div class="container">
 			<div class="d-none d-lg-block justify-content-sm-center w-25">
-				<a class="navbar-brand mr-0" href="<?= site_url('') ?>"><img src="<?= base_url() ?>assets/images/logo.png" class="w-50" alt="logo"></a>
+				<a class="navbar-brand mr-0" href=""><img src="<?= base_url() ?>assets/images/logo.png" style="height: 40px" alt="logo"></a>
 			</div>
 
 			<!--  Show this only on mobile to medium screens  -->
-			<a class="navbar-brand d-lg-none w-25" href="<?= site_url('') ?>"><img src="<?= base_url() ?>assets/images/logo.png" class="w-100" alt="logo"></a>
+			<a class="navbar-brand d-lg-none w-25" href=""><img src="<?= base_url() ?>assets/images/logo.png" class="w-100" alt="logo"></a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="collapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -128,7 +128,7 @@
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col-md-4">
-					<img src="<?= base_url() ?>assets/images/foto.jpg" class="card-img img-fluid" style="height:450px" alt="...">
+					<img src="<?= base_url() ?>assets/images/foto.jpg" class="card-img img-fluid rounded-circle" style="height:400px" alt="...">
 				</div>
 				<div class="col-md-8">
 					<div class="card-body">
@@ -138,6 +138,9 @@
 						</p>
 						<p class="card-text">
 							Dream when I was little was to be a scientist or astronaut, from childhood I never wanted to be the person sitting behind a computer. But now working as a programmer, I think fate is funny because sometimes what we most avoid is what we will become later. Right now my dream is to make my parents proud and use all my abilities to create something meaningful and useful.
+						</p>
+						<p class="card-text">
+							I graduated elementary school in 2012 at SDN 2 Waru Sidoarjo, then continued junior high school at SMPN 3 Waru Sidoarjo, I graduated in 2015 at SMPN 11 Depok, I continued high school at SMKN 1 Depok and graduated in 2018. Currently I am continuing my studies S1 and S2 at Gunadarma University and scheduled to graduate in 2023 with a bachelor-master degree.
 						</p>
 					</div>
 				</div>
@@ -151,11 +154,10 @@
 		<h3 class="text-center pb-3">Skill</h3>
 		<div class="container">
 			<div class="row">
-
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/html.png" class="img-fluid" style="height: 100px;" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">HTML, CSS, JS</h5>
 						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
@@ -165,22 +167,9 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/boot.png" class="img-fluid" style="height: 100px;" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Bootstrap</h5>
 						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
@@ -190,22 +179,9 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
-						<p>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-							<i class="fa fa-star text-warning"></i>
-						</p>
-					</div>
-				</div>
-
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/php.png" class="img-fluid" style="height: 100px;" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">PHP</h5>
 						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
@@ -215,11 +191,10 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/python.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Python</h5>
 						<p>
-							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
@@ -228,9 +203,9 @@
 				</div>
 
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/ci.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Codeigniter</h5>
 						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
@@ -240,12 +215,77 @@
 					</div>
 				</div>
 				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
-					<div style="border:1px solid rgb(184, 209, 197, .8)">
-						<h5 class="card-title pt-3">PHP</h5>
+					<img src="<?= base_url() ?>assets/images/skill/laravel.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Laravel</h5>
 						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/django.webp" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Django</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/java.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Java</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/mysql.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">MySQL</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/post.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">PostgreSQL</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/vbnet.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">VB.NET</h5>
+						<p>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+							<i class="fa fa-star text-warning"></i>
+						</p>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 col-6 text-center text-muted p-3">
+					<img src="<?= base_url() ?>assets/images/skill/ar.png" style="height: 100px;" class="img-fluid" alt="...">
+					<div>
+						<h5 class="card-title pt-3 text-white">Augmented Reality</h5>
+						<p>
 							<i class="fa fa-star text-warning"></i>
 							<i class="fa fa-star text-warning"></i>
 						</p>
@@ -263,39 +303,33 @@
 			<div class="row">
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col-md-4 col-12 text-muted p-3">
 					<div class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="<?= base_url() ?>assets/images/hobby/book.png" style="height: 250px" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h4 class="card-title text-center">Lorem ipsum</h4>
+							<h4 class="card-title text-center">Reading Book's</h4>
 							<p class="text-justify">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+								My first hobby is reading books, my favorite book genres are sci-fi, fantasy, and history. Besides novels, I also like reading comics, history books, astronomy books, and geology books. In my opinion reading will add experience indirectly.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
 					<div data-aos="zoom-in-up" class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="<?= base_url() ?>assets/images/hobby/chess.png" style="height: 250px" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h4 class="card-title text-center">Lorem ipsum</h4>
+							<h4 class="card-title text-center">Play Chess</h4>
 							<p class="text-justify">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+								My second hobby is playing chess, in my opinion chess is very interesting. Apart from being a tool for refreshing, chess can also help sharpen the brain and force us to always focus on each opponent's movements.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 col-12 text-muted p-3">
 					<div class="card">
-						<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="card-img-top" alt="...">
+						<img src="<?= base_url() ?>assets/images/hobby/movie.png" style="height: 250px" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h4 class="card-title text-center">Lorem ipsum</h4>
+							<h4 class="card-title text-center">Watching Movies</h4>
 							<p class="text-justify">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+								My last hobby is watching movies, my favorite genres are fantasy, sci-fi, history, war, and medical. besides watching movies I also like watching animation or cartoons, because in my opinion films can help to imagine to find new things.
 							</p>
 						</div>
 					</div>
@@ -307,106 +341,244 @@
 
 	<!-- Achievement -->
 	<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="section bg-green" id="achievement">
-		<h3 class="text-center pb-3">Achievement</h3>
+		<h3 class="text-center pb-3">Achievement & Certificate</h3>
 		<div class="container">
 			<div class="row">
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="<?= base_url() ?>assets/images/achievement/smkn1.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">The best graduate</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										RPL - SMKN 1 DEPOK 2018 Year
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a href="#"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="<?= base_url() ?>assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">KOMINFO Scholarships</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										Cyber Security - UI 2019 Year.
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/32jQ4aA"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="<?= base_url() ?>assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">KOMINFO Scholarships</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										Big Data - AWS 2020 Year
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a href="#"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
 							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+								<img src="<?= base_url() ?>assets/images/achievement/lks.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">LKS SMK</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										IT Application - Runner Up 2018 Year
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2HIfzsy"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+							<div class="<?= base_url() ?>col-md-4 col-12">
+								<img src="assets/images/achievement/bekraf.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">Bekraf Habibie</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										Game Competition - Clevio 2018 Year
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2PgLnsD"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-6 p-2 col-6">
-					<div class="card pt-2 pl-2 pr-2">
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
 						<div class="row no-gutters">
-							<div class="col-md-4 col-12">
-								<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" class="rounded img-fluid" alt="...">
+							<div class="<?= base_url() ?>col-md-4 col-12">
+								<img src="assets/images/achievement/mercu.png" style="height: 150px" class="rounded img-fluid" alt="...">
 							</div>
 							<div class="col-md-8 col-12">
 								<div class="card-body">
-									<h4 class="card-title">Lorem ipsum</h4>
+									<h6 class="card-title">Mercu Buana Festival</h6>
 									<p class="">
-										Lorem ipsum dolor sit amet. sit amet.sit
+										Business App Proposal - Mercu Buana 2020 Year
 									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2HNSmVW"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/udemy.png" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">Udemy Training</h6>
+									<p class="">
+										Flutter Training - Udemy 2020 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a href="#"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/trilogi.png" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">Trilogi Competition</h6>
+									<p class="">
+										Web Design Competition - Trilogi 2018 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2v8jdJl"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/dinacom.png" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">Dian Nuswantoro Festival</h6>
+									<p class="">
+										Apps Competition - Dian Nuswantoro 2018 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2v783Vo"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/kominfo.png" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">KOMINFO Schoolarship</h6>
+									<p class="">
+										Digital Business - UNPAD 2019 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/38R2yZC"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/gdk.png" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">Google Developer Kejar</h6>
+									<p class="">
+										Mobile Web Specialist - Inixindo 2018 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2VdgRDD"> Certificate Link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-md-4 p-2 col-6">
+					<div class="card p-2">
+						<div class="row no-gutters">
+							<div class="col-md-4 col-12">
+								<img src="<?= base_url() ?>assets/images/achievement/iak.jpg" style="height: 150px" class="rounded img-fluid" alt="...">
+							</div>
+							<div class="col-md-8 col-12">
+								<div class="card-body">
+									<h6 class="card-title">Indonesia Android Kejar</h6>
+									<p class="">
+										Android Intermediate - Inixindo 2017 Year
+									</p>
+								</div>
+								<div class="card-footer bg-white">
+									<a target="_blank" href="https://bit.ly/2uqSho4"> Certificate Link</a>
 								</div>
 							</div>
 						</div>
@@ -423,28 +595,28 @@
 		<div class="container">
 			<div class="row">
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
-					<h4>Lorem Ipsum</h4>
-					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
-					<p><span>2018-2020</span></p>
+					<img src="<?= base_url() ?>assets/images/experience/dev.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
+					<h4>Freelance</h4>
+					<p>Freelance Programmer</p>
+					<p><span>2017-Now</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
-					<h4>Lorem Ipsum</h4>
-					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
-					<p><span>2018-2020</span></p>
+					<img src="<?= base_url() ?>assets/images/experience/koin.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
+					<h4>KO-IN (Toko Indonesia)</h4>
+					<p>Contract Programmer</p>
+					<p><span>2019-Now</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
-					<h4>Lorem Ipsum</h4>
-					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
-					<p><span>2018-2020</span></p>
+					<img src="<?= base_url() ?>assets/images/experience/powernet.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
+					<h4>PT. Powernet Indosolution</h4>
+					<p>Freelance Programmer</p>
+					<p><span>2020-Now</span></p>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-3 p-2 text-center col-6">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid rounded-circle mb-3">
-					<h4>Lorem Ipsum</h4>
-					<p>Lorem ipsum dolor sit amet. sit amet.sit</p>
-					<p><span>2018-2020</span></p>
+					<img src="<?= base_url() ?>assets/images/experience/noimage.png" style="height: 150px;" class="img-fluid rounded-circle mb-3">
+					<h4>PT.MAAI</h4>
+					<p>Freelance Programmer</p>
+					<p><span>2020-Now</span></p>
 				</div>
 			</div>
 		</div>
@@ -456,11 +628,10 @@
 		<div class="container">
 			<div class="row">
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4 text-center foot-img">
-					<img src="<?= base_url() ?>assets/images/slider/slider-2.jpg" width="150" height="150" class="img-fluid">
-					<h6 class="pt-3">Visitors : </h6>
+					<img src="<?= base_url() ?>assets/images/logo.png" style="height: 100px" class="img-fluid">
 				</div>
-				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000" class="col-md-4">
-					<h4 class="pl-3">Connected With Me</h4>
+				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4">
+					<h4 class="pl-3">Contact Me</h4>
 					<div class="p-3">
 						<h6 class="text-light"><i class="fa fa-whatsapp text-success logo-foot"></i> 0858 8457 1705</h6>
 						<h6 class="text-light"><i class="fa fa-instagram text-danger logo-foot"></i> @nooralizah948</h6>
@@ -471,7 +642,7 @@
 					</div>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" class="col-md-4">
-					<h4 class="pl-3">Connected With Me</h4>
+					<h4 class="pl-3">Send Me Message</h4>
 					<div class="p-3 rounded">
 						<form class="pt-3">
 							<div class="form-group">

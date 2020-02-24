@@ -1,0 +1,152 @@
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 300 !important;
+    background: #f9f9f9 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.navbar-nav>li {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.dropdown .dropdown-menu a:focus {
+    background: #e1bee7 !important;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section {
+    padding: 50px 0px;
+}
+
+.form-control:focus {
+    border: 3px solid rgb(95,97,186, .7) !important;
+}
+
+.bg-green {
+    background: rgb(95,97,186, .3);
+}
+
+.bg-footer {
+    background: rgb(95,97,186, .5);
+}
+
+.card .saran {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.foot-img {
+    margin: 80px auto;
+}
+
+.logo-foot {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.carousel-caption {
+    top: 30% !important;
+    background-color: rgba(0,0,0,.4);
+}
+
+.carousel-caption h1 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,.15);
+}
+
+.carousel-caption p {
+    font-size: 24px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff !important;
+    border-color: #7B1FA2 !important;
+    background-color: #7B1FA2 !important;
+}
+
+/* animation */
+
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+@media (max-width: 1024px) and (max-width: 1366px) {
+
+    .carousel-item img {
+        width: auto !important;
+        height: 700px;
+    }
+}
+
+/* mobile & tabs */
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+    .carousel {
+        margin-top: 72px !important;
+    }
+
+    .carousel-item img {
+        width: auto !important;
+        height: 400px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
